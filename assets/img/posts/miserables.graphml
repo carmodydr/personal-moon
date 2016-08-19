@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="Gueulemer" />
+    <node id="Joly" />
+    <node id="CountessdeLo" />
+    <node id="Prouvaire" />
+    <node id="Mlle.Baptistine" />
+    <node id="Javert" />
+    <node id="Chenildieu" />
+    <node id="Fantine" />
+    <node id="Cosette" />
+    <node id="Babet" />
+    <node id="Mme.Pontmercy" />
+    <node id="Valjean" />
+    <node id="Pontmercy" />
+    <node id="Toussaint" />
+    <node id="Champtercier" />
+    <node id="Grantaire" />
+    <node id="Eponine" />
+    <node id="Child1" />
+    <node id="Child2" />
+    <node id="Mme.Magloire" />
+    <node id="Favourite" />
+    <node id="Claquesous" />
+    <node id="Mabeuf" />
+    <node id="Fameuil" />
+    <node id="Enjolras" />
+    <node id="Labarre" />
+    <node id="Mme.Thenardier" />
+    <node id="Perpetue" />
+    <node id="Mlle.Gillenormand" />
+    <node id="Judge" />
+    <node id="Dahlia" />
+    <node id="Brujon" />
+    <node id="MotherInnocent" />
+    <node id="Napoleon" />
+    <node id="Listolier" />
+    <node id="Count" />
+    <node id="Combeferre" />
+    <node id="Isabeau" />
+    <node id="Woman1" />
+    <node id="Woman2" />
+    <node id="Feuilly" />
+    <node id="Champmathieu" />
+    <node id="Montparnasse" />
+    <node id="Courfeyrac" />
+    <node id="Gillenormand" />
+    <node id="Anzelma" />
+    <node id="Zephine" />
+    <node id="Jondrette" />
+    <node id="Fauchelevent" />
+    <node id="Bamatabois" />
+    <node id="Blacheville" />
+    <node id="Gribier" />
+    <node id="Bossuet" />
+    <node id="Geborand" />
+    <node id="Tholomyes" />
+    <node id="Thenardier" />
+    <node id="Lt.Gillenormand" />
+    <node id="Simplice" />
+    <node id="Brevet" />
+    <node id="Marguerite" />
+    <node id="Gavroche" />
+    <node id="Myriel" />
+    <node id="Magnon" />
+    <node id="Bahorel" />
+    <node id="Cochepaille" />
+    <node id="BaronessT" />
+    <node id="Mlle.Vaubois" />
+    <node id="Mme.Burgon" />
+    <node id="Scaufflaire" />
+    <node id="OldMan" />
+    <node id="Cravatte" />
+    <node id="Mme.Hucheloup" />
+    <node id="Boulatruelle" />
+    <node id="Gervais" />
+    <node id="Marius" />
+    <node id="MotherPlutarch" />
+    <node id="Mme.deR" />
+    <edge source="Gueulemer" target="Eponine" />
+    <edge source="Gueulemer" target="Gavroche" />
+    <edge source="Gueulemer" target="Javert" />
+    <edge source="Gueulemer" target="Claquesous" />
+    <edge source="Gueulemer" target="Babet" />
+    <edge source="Gueulemer" target="Valjean" />
+    <edge source="Gueulemer" target="Mme.Thenardier" />
+    <edge source="Gueulemer" target="Montparnasse" />
+    <edge source="Gueulemer" target="Brujon" />
+    <edge source="Gueulemer" target="Thenardier" />
+    <edge source="Joly" target="Combeferre" />
+    <edge source="Joly" target="Gavroche" />
+    <edge source="Joly" target="Mme.Hucheloup" />
+    <edge source="Joly" target="Bahorel" />
+    <edge source="Joly" target="Enjolras" />
+    <edge source="Joly" target="Grantaire" />
+    <edge source="Joly" target="Courfeyrac" />
+    <edge source="Joly" target="Feuilly" />
+    <edge source="Joly" target="Bossuet" />
+    <edge source="Joly" target="Prouvaire" />
+    <edge source="Joly" target="Mabeuf" />
+    <edge source="Joly" target="Marius" />
+    <edge source="CountessdeLo" target="Myriel" />
+    <edge source="Prouvaire" target="Combeferre" />
+    <edge source="Prouvaire" target="Gavroche" />
+    <edge source="Prouvaire" target="Bahorel" />
+    <edge source="Prouvaire" target="Enjolras" />
+    <edge source="Prouvaire" target="Courfeyrac" />
+    <edge source="Prouvaire" target="Feuilly" />
+    <edge source="Prouvaire" target="Bossuet" />
+    <edge source="Prouvaire" target="Grantaire" />
+    <edge source="Mlle.Baptistine" target="Myriel" />
+    <edge source="Mlle.Baptistine" target="Mme.Magloire" />
+    <edge source="Mlle.Baptistine" target="Valjean" />
+    <edge source="Javert" target="Fantine" />
+    <edge source="Javert" target="Bamatabois" />
+    <edge source="Javert" target="Woman1" />
+    <edge source="Javert" target="Woman2" />
+    <edge source="Javert" target="Gavroche" />
+    <edge source="Javert" target="Claquesous" />
+    <edge source="Javert" target="Toussaint" />
+    <edge source="Javert" target="Simplice" />
+    <edge source="Javert" target="Enjolras" />
+    <edge source="Javert" target="Cosette" />
+    <edge source="Javert" target="Babet" />
+    <edge source="Javert" target="Fauchelevent" />
+    <edge source="Javert" target="Valjean" />
+    <edge source="Javert" target="Mme.Thenardier" />
+    <edge source="Javert" target="Montparnasse" />
+    <edge source="Javert" target="Thenardier" />
+    <edge source="Chenildieu" target="Bamatabois" />
+    <edge source="Chenildieu" target="Brevet" />
+    <edge source="Chenildieu" target="Champmathieu" />
+    <edge source="Chenildieu" target="Cochepaille" />
+    <edge source="Chenildieu" target="Valjean" />
+    <edge source="Chenildieu" target="Judge" />
+    <edge source="Fantine" target="Listolier" />
+    <edge source="Fantine" target="Bamatabois" />
+    <edge source="Fantine" target="Marguerite" />
+    <edge source="Fantine" target="Favourite" />
+    <edge source="Fantine" target="Blacheville" />
+    <edge source="Fantine" target="Simplice" />
+    <edge source="Fantine" target="Zephine" />
+    <edge source="Fantine" target="Fameuil" />
+    <edge source="Fantine" target="Valjean" />
+    <edge source="Fantine" target="Mme.Thenardier" />
+    <edge source="Fantine" target="Perpetue" />
+    <edge source="Fantine" target="Tholomyes" />
+    <edge source="Fantine" target="Dahlia" />
+    <edge source="Fantine" target="Thenardier" />
+    <edge source="Cosette" target="Gillenormand" />
+    <edge source="Cosette" target="Woman2" />
+    <edge source="Cosette" target="Mlle.Gillenormand" />
+    <edge source="Cosette" target="Toussaint" />
+    <edge source="Cosette" target="Valjean" />
+    <edge source="Cosette" target="Mme.Thenardier" />
+    <edge source="Cosette" target="Tholomyes" />
+    <edge source="Cosette" target="Marius" />
+    <edge source="Cosette" target="Thenardier" />
+    <edge source="Cosette" target="Lt.Gillenormand" />
+    <edge source="Babet" target="Eponine" />
+    <edge source="Babet" target="Gavroche" />
+    <edge source="Babet" target="Claquesous" />
+    <edge source="Babet" target="Valjean" />
+    <edge source="Babet" target="Mme.Thenardier" />
+    <edge source="Babet" target="Montparnasse" />
+    <edge source="Babet" target="Brujon" />
+    <edge source="Babet" target="Thenardier" />
+    <edge source="Mme.Pontmercy" target="Pontmercy" />
+    <edge source="Mme.Pontmercy" target="Mlle.Gillenormand" />
+    <edge source="Valjean" target="Toussaint" />
+    <edge source="Valjean" target="Mme.Magloire" />
+    <edge source="Valjean" target="Claquesous" />
+    <edge source="Valjean" target="Enjolras" />
+    <edge source="Valjean" target="Labarre" />
+    <edge source="Valjean" target="Mme.Thenardier" />
+    <edge source="Valjean" target="Mlle.Gillenormand" />
+    <edge source="Valjean" target="Judge" />
+    <edge source="Valjean" target="MotherInnocent" />
+    <edge source="Valjean" target="Isabeau" />
+    <edge source="Valjean" target="Woman1" />
+    <edge source="Valjean" target="Woman2" />
+    <edge source="Valjean" target="Champmathieu" />
+    <edge source="Valjean" target="Montparnasse" />
+    <edge source="Valjean" target="Gillenormand" />
+    <edge source="Valjean" target="Fauchelevent" />
+    <edge source="Valjean" target="Bamatabois" />
+    <edge source="Valjean" target="Bossuet" />
+    <edge source="Valjean" target="Thenardier" />
+    <edge source="Valjean" target="Simplice" />
+    <edge source="Valjean" target="Brevet" />
+    <edge source="Valjean" target="Marguerite" />
+    <edge source="Valjean" target="Gavroche" />
+    <edge source="Valjean" target="Myriel" />
+    <edge source="Valjean" target="Cochepaille" />
+    <edge source="Valjean" target="Scaufflaire" />
+    <edge source="Valjean" target="Gervais" />
+    <edge source="Valjean" target="Marius" />
+    <edge source="Valjean" target="Mme.deR" />
+    <edge source="Pontmercy" target="Thenardier" />
+    <edge source="Pontmercy" target="Marius" />
+    <edge source="Champtercier" target="Myriel" />
+    <edge source="Grantaire" target="Combeferre" />
+    <edge source="Grantaire" target="Gavroche" />
+    <edge source="Grantaire" target="Mme.Hucheloup" />
+    <edge source="Grantaire" target="Bahorel" />
+    <edge source="Grantaire" target="Enjolras" />
+    <edge source="Grantaire" target="Courfeyrac" />
+    <edge source="Grantaire" target="Feuilly" />
+    <edge source="Grantaire" target="Bossuet" />
+    <edge source="Eponine" target="Claquesous" />
+    <edge source="Eponine" target="Anzelma" />
+    <edge source="Eponine" target="Thenardier" />
+    <edge source="Eponine" target="Courfeyrac" />
+    <edge source="Eponine" target="Mme.Thenardier" />
+    <edge source="Eponine" target="Montparnasse" />
+    <edge source="Eponine" target="Brujon" />
+    <edge source="Eponine" target="Mabeuf" />
+    <edge source="Eponine" target="Marius" />
+    <edge source="Child1" target="Child2" />
+    <edge source="Child1" target="Gavroche" />
+    <edge source="Child2" target="Gavroche" />
+    <edge source="Mme.Magloire" target="Myriel" />
+    <edge source="Favourite" target="Listolier" />
+    <edge source="Favourite" target="Blacheville" />
+    <edge source="Favourite" target="Zephine" />
+    <edge source="Favourite" target="Fameuil" />
+    <edge source="Favourite" target="Tholomyes" />
+    <edge source="Favourite" target="Dahlia" />
+    <edge source="Claquesous" target="Enjolras" />
+    <edge source="Claquesous" target="Mme.Thenardier" />
+    <edge source="Claquesous" target="Montparnasse" />
+    <edge source="Claquesous" target="Brujon" />
+    <edge source="Claquesous" target="Thenardier" />
+    <edge source="Mabeuf" target="Combeferre" />
+    <edge source="Mabeuf" target="Gavroche" />
+    <edge source="Mabeuf" target="Bahorel" />
+    <edge source="Mabeuf" target="Enjolras" />
+    <edge source="Mabeuf" target="Courfeyrac" />
+    <edge source="Mabeuf" target="Feuilly" />
+    <edge source="Mabeuf" target="Bossuet" />
+    <edge source="Mabeuf" target="MotherPlutarch" />
+    <edge source="Mabeuf" target="Marius" />
+    <edge source="Fameuil" target="Listolier" />
+    <edge source="Fameuil" target="Blacheville" />
+    <edge source="Fameuil" target="Zephine" />
+    <edge source="Fameuil" target="Tholomyes" />
+    <edge source="Fameuil" target="Dahlia" />
+    <edge source="Enjolras" target="Combeferre" />
+    <edge source="Enjolras" target="Gavroche" />
+    <edge source="Enjolras" target="Bahorel" />
+    <edge source="Enjolras" target="Courfeyrac" />
+    <edge source="Enjolras" target="Feuilly" />
+    <edge source="Enjolras" target="Mme.Hucheloup" />
+    <edge source="Enjolras" target="Bossuet" />
+    <edge source="Enjolras" target="Marius" />
+    <edge source="Mme.Thenardier" target="Anzelma" />
+    <edge source="Mme.Thenardier" target="Magnon" />
+    <edge source="Mme.Thenardier" target="Thenardier" />
+    <edge source="Perpetue" target="Simplice" />
+    <edge source="Mlle.Gillenormand" target="Gillenormand" />
+    <edge source="Mlle.Gillenormand" target="Marius" />
+    <edge source="Mlle.Gillenormand" target="Mlle.Vaubois" />
+    <edge source="Mlle.Gillenormand" target="Lt.Gillenormand" />
+    <edge source="Judge" target="Bamatabois" />
+    <edge source="Judge" target="Brevet" />
+    <edge source="Judge" target="Champmathieu" />
+    <edge source="Judge" target="Cochepaille" />
+    <edge source="Dahlia" target="Listolier" />
+    <edge source="Dahlia" target="Blacheville" />
+    <edge source="Dahlia" target="Zephine" />
+    <edge source="Dahlia" target="Tholomyes" />
+    <edge source="Brujon" target="Gavroche" />
+    <edge source="Brujon" target="Montparnasse" />
+    <edge source="Brujon" target="Thenardier" />
+    <edge source="MotherInnocent" target="Fauchelevent" />
+    <edge source="Napoleon" target="Myriel" />
+    <edge source="Listolier" target="Blacheville" />
+    <edge source="Listolier" target="Zephine" />
+    <edge source="Listolier" target="Tholomyes" />
+    <edge source="Count" target="Myriel" />
+    <edge source="Combeferre" target="Gavroche" />
+    <edge source="Combeferre" target="Bahorel" />
+    <edge source="Combeferre" target="Courfeyrac" />
+    <edge source="Combeferre" target="Feuilly" />
+    <edge source="Combeferre" target="Bossuet" />
+    <edge source="Combeferre" target="Marius" />
+    <edge source="Feuilly" target="Gavroche" />
+    <edge source="Feuilly" target="Bahorel" />
+    <edge source="Feuilly" target="Courfeyrac" />
+    <edge source="Feuilly" target="Bossuet" />
+    <edge source="Feuilly" target="Marius" />
+    <edge source="Champmathieu" target="Bamatabois" />
+    <edge source="Champmathieu" target="Brevet" />
+    <edge source="Champmathieu" target="Cochepaille" />
+    <edge source="Montparnasse" target="Gavroche" />
+    <edge source="Montparnasse" target="Thenardier" />
+    <edge source="Courfeyrac" target="Gavroche" />
+    <edge source="Courfeyrac" target="Mme.Hucheloup" />
+    <edge source="Courfeyrac" target="Bahorel" />
+    <edge source="Courfeyrac" target="Bossuet" />
+    <edge source="Courfeyrac" target="Marius" />
+    <edge source="Gillenormand" target="BaronessT" />
+    <edge source="Gillenormand" target="Marius" />
+    <edge source="Gillenormand" target="Magnon" />
+    <edge source="Gillenormand" target="Lt.Gillenormand" />
+    <edge source="Anzelma" target="Thenardier" />
+    <edge source="Zephine" target="Blacheville" />
+    <edge source="Zephine" target="Tholomyes" />
+    <edge source="Jondrette" target="Mme.Burgon" />
+    <edge source="Fauchelevent" target="Gribier" />
+    <edge source="Bamatabois" target="Brevet" />
+    <edge source="Bamatabois" target="Cochepaille" />
+    <edge source="Blacheville" target="Tholomyes" />
+    <edge source="Bossuet" target="Gavroche" />
+    <edge source="Bossuet" target="Mme.Hucheloup" />
+    <edge source="Bossuet" target="Bahorel" />
+    <edge source="Bossuet" target="Marius" />
+    <edge source="Geborand" target="Myriel" />
+    <edge source="Tholomyes" target="Marius" />
+    <edge source="Thenardier" target="Gavroche" />
+    <edge source="Thenardier" target="Boulatruelle" />
+    <edge source="Thenardier" target="Marius" />
+    <edge source="Lt.Gillenormand" target="Marius" />
+    <edge source="Brevet" target="Cochepaille" />
+    <edge source="Gavroche" target="Mme.Burgon" />
+    <edge source="Gavroche" target="Mme.Hucheloup" />
+    <edge source="Gavroche" target="Bahorel" />
+    <edge source="Gavroche" target="Marius" />
+    <edge source="Myriel" target="OldMan" />
+    <edge source="Myriel" target="Cravatte" />
+    <edge source="Bahorel" target="Mme.Hucheloup" />
+    <edge source="Bahorel" target="Marius" />
+    <edge source="BaronessT" target="Marius" />
+  </graph>
+</graphml>

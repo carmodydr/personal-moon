@@ -1,0 +1,265 @@
+<html>
+<head>
+<meta charset='UTF-8'/>
+<!--[if lt IE 9]>
+<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.0/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.0/mapbox.css' rel='stylesheet' />
+
+
+</script>
+
+<style>
+body {
+	background: #404040;
+	color: #f8f8f8;
+	font: 400 15px/22px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+* {
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+		box-sizing:border-box;
+}
+h1 {
+	font-size: 22px;
+	margin: 0;
+	font-weight: 400;
+}
+a {
+	color: #404040;
+	text-decoration: none;
+}
+a:hover {
+	color: #101010;
+}
+.sidebar {
+	position: absolute;
+	top: 0; left: 0;
+	width: 33.3333%;
+	height: 80%;
+	overflow: hidden;
+}
+.map {
+	width: 66.6667%;
+	border-left: 1px solid #fff;
+	position: absolute;
+	left: 33.3333%;
+	top: 0;
+	bottom: 0;
+}
+.pad2 {
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.quiet {
+	color: #888;
+}
+.heading {
+	background:#fff;
+	border-bottom:1px solid #eee;
+	height:60px;
+	line-height:60px;
+	padding:0 10px;
+	font-color: black;
+	color: black;
+}
+.listings {
+	background:#fff;
+	height:100%;
+  overflow:auto;
+  padding-bottom:60px;
+}
+.listings .details {
+	color: black;
+}
+.listings .item {
+  display:block;
+  border-bottom:1px solid #eee;
+  padding:10px;
+  text-decoration:none;
+}
+.listings .item:last-child { border-bottom:none; }
+.listings .item .title {
+  display:block;
+  color:#4B698B;
+  font-weight:700;
+}
+.listings .item .title small { font-weight:400; }
+.listings .item.active .title,
+.listings .item .title:hover { color:#738CA6; }
+.listings .item.active {
+  background-color:#f8f8f8;
+}
+
+::-webkit-scrollbar {
+  width:3px;
+  height:3px;
+  border-left:0;
+  background:rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-track {
+  background:none;
+}
+::-webkit-scrollbar-thumb {
+  background:#00853e;
+  border-radius:0;
+}
+
+.clearfix { display:block; }
+.clearfix:after {
+  content:'.';
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+
+/* Marker tweaks */
+.leaflet-popup-close-button {
+  display:none;
+}
+.leaflet-popup-content {
+  font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+  padding:0;
+  width:299px;
+}
+.leaflet-popup-content-wrapper {
+  padding:0;
+}
+.leaflet-popup-content h3 {
+  background:#738CA6;
+  color:#fff;
+  margin:0;
+  display:block;
+  padding:10px;
+  border-radius:3px 3px 0 0;
+  font-weight:700;
+  margin-top:-15px;
+}
+.leaflet-popup-content div {
+  padding:10px;
+}
+.leaflet-container .leaflet-marker-icon { cursor:pointer; }
+</style>
+
+<body>
+
+<div class='sidebar pad2'>
+	<div class='heading'>
+		<h1>Locations</h1>
+	</div>
+	<div id='listings' class='listings'></div>
+</div>
+<div id='map' class='map pad2'>Map</div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiZGNhcm1vZHkiLCJhIjoiSUlWeU1NTSJ9.V7TY3S0gmUS6uazTLfcUgw';
+
+var geojson = [
+	{
+	"type": "FeatureCollection",
+	"features": [
+		{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -77.034084142948,
+                38.909671288923
+              ]
+            },
+            "properties": {
+              "phoneFormatted": "(202) 234-7336",
+              "phone": "2022347336",
+              "address": "1471 P St NW",
+              "city": "Washington DC",
+              "country": "United States",
+              "crossStreet": "at 15th St NW",
+              "postalCode": "20005",
+              "state": "D.C."
+            }
+          }
+	]
+	}
+];
+
+var map = L.mapbox.map('map', 'dcarmody.g9hjiogc');
+
+//var featureLayer = L.mapbox.featureLayer().loadURL('audio.geojson').addTo(map);
+
+var locations = L.mapbox.featureLayer().addTo(map);
+locations.loadURL('audio.geojson');
+
+var listings = document.getElementById('listings');
+
+function setActive(el) {
+    var siblings = listings.getElementsByTagName('div');
+    for (var i = 0; i < siblings.length; i++) {
+      siblings[i].className = siblings[i].className
+        .replace(/active/, '').replace(/\s\s*$/, '');
+    }
+
+    el.className += ' active';
+}
+
+
+locations.on('ready', function() {
+  locations.eachLayer(function(locale) {
+	var prop = locale.feature.properties;
+
+	var listing = listings.appendChild(document.createElement('div'));
+	listing.className = 'item';
+
+	var link = listing.appendChild(document.createElement('a'));
+	link.href = '#';
+	link.className = 'title';
+	link.innerHTML = prop.name + '<br><small class="quiet">' + prop.date + '</small>';
+
+	var description = listing.appendChild(document.createElement('div'));
+	description.className = 'details';
+	description.innerHTML = prop.description;
+	
+	link.onclick = function() {
+		setActive(listing);
+		map.setView(locale.getLatLng(), 10);
+		locale.openPopup();
+		return false;
+	};
+
+	var popup = '<h3>' + prop.name + '</h3>' + '<b>' + prop.date + '</b><br>' + prop.description;
+	var audioFile = '<audio controls> <source src="' + prop.url + '" type="audio/mpeg"> Your browser does not support the audio element.</audio>';
+	popup += '<br>' + audioFile;
+	locale.bindPopup(popup);
+
+	locale.setIcon(L.icon({
+  		iconUrl: 'files/marker.png',
+  		iconSize: [28, 28],
+  		iconAnchor: [28, 28],
+  		popupAnchor: [0, -34]
+	}));
+
+	locale.on('click', function() {
+		setActive(listing);
+		map.setView(locale.getLatLng(), 10);
+	});
+  });
+});
+
+// Instagram Photos
+var instClientID = '66ed026bb00543359d2393f196835e96a';
+var userID = '15338817';
+var accessToken = '15338817.ab103e5.a8ac15b12f8a4e108cde0561d977c715';
+
+//https://api.instagram.com/v1/users/{user-id}/media/recent/?access_token=ACCESS-TOKEN
+//MIN_ID
+
+</script>
+
+</body>
+</html>

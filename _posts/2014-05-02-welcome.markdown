@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Welcome!"
+---
+
+Perhaps eventually this blog will be used for news or thoughts or something, but not yet!

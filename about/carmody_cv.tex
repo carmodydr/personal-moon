@@ -1,0 +1,193 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Daniel Carmody}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+%\def\footerlink{www.com/link}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {physics, plasma, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{http://www.wisc.edu/}{University of Wisconsin - Madison} \\
+  Physics Department \\
+  1150 University Avenue \\
+  Madison, WI 53706
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: &  (412) 596-5355\\
+    Email: & \href{mailto:dcarmody@wisc.edu}{\tt dcarmody@wisc.edu} \\
+    Homepage: & \href{http://www.danielcarmody.net/}{\tt http://www.danielcarmody.net/} \\
+  \end{tabular}
+\end{minipage}
+
+
+%\section*{Personal}
+
+
+\section*{Education}
+
+\begin{itemize}
+	\item PhD (In Progress), Physics, University of Wisconsin - Madison, (September 2009 - current).
+\begin{itemize}
+\item Investigating the characteristics of microinstabilities and the nature of turbulence and transport in fusion plasmas, with attention to the reversed field pinch device. A mixture of analytic and computational methods are used, the latter of which involve massively parallel simulations on advanced HPC systems. Thesis Advisor: Paul Terry.
+\end{itemize}
+	\item Master of Advanced Study (Part III of the
+ Mathematical Tripos), Department of Applied Mathematics and Theoretical Physics, University of Cambridge, 2009.
+ \begin{itemize}
+	\item Thesis: 'Constraining Cosmological Inflation'. Thesis Advisor: Paul Shellard.
+\end{itemize}
+	\item Bachelor of Science, Physics, Carnegie Mellon University, 2008.
+
+\end{itemize}
+
+%\section*{Research Experience}
+\section*{Experience}
+
+\begin{itemize}
+\item Research Assistant, Theoretical Plasma Physics, University of Wisconsin, 2010-present.
+\item Teaching Assistant, Introductory Physics, University of Wisconsin, 2009-2010
+\item Physics Tutor, Carnegie Mellon University, 2006-2008.
+\item Research Experience for Undergraduates, Cornell University, Summer 2007
+\begin{itemize}
+\item Modeled electron cloud physics in the Cornell Electron Storage Ring (CESR) with the ECLOUD program. This work was completed to help provide part of the basis for a proposed conversion of CESR to operation as a test accelerator.
+\end{itemize}
+\item Research Experience for Undergraduates, University of Minnesota, Summer 2006
+\begin{itemize}
+\item Used seismic data and inverse modeling to map the structure and composition of the earth's mantle beneath the South American continent.
+\end{itemize}
+\item Intern, Science Applications International Corporation, Summer 2004
+\begin{itemize}
+\item Updated a GUI in Microsoft's Visual Studio.
+\end{itemize}
+\end{itemize}
+
+
+\section*{Honors, Awards, and Fellowships}
+
+\begin{itemize}
+\item Cambridge Overseas Trust Scholar, 2008
+\item Phi Kappa Phi Honor Society, 2008
+\item Phi Beta Kappa Honor Society, 2008
+\end{itemize}
+
+\section*{Publications}
+
+\subsection*{Journal Articles}
+
+\begin{itemize}
+\item {\bf D.~Carmody}, M.~J. Pueschel, P.~W. Terry, {\it Microturbulence Studies of Pulsed Poloidal Current Drive Discharges in the Reversed Field Pinch}, {\bf submitted to Phys. Plasmas}
+\item {\bf D.~Carmody}, P.~W. Terry, M.~J. Pueschel, {\it Gyrokinetic Studies of Microinstabilities in the Reversed Field Pinch}, Phys. Plasmas {\bf 20}, 052110 (2013)
+\item P.~W. Terry, M.~J. Pueschel, {\bf D. Carmody}, W.~M.~Nevins, {\it The Effect of Magnetic Flutter on Residual Flow}, Phys. Plasmas {\bf 20}, 112502 (2013)
+\end{itemize}
+
+\subsection*{Abstracts and Poster Presentations}
+
+\begin{itemize}
+\item Talk, {\it Microinstability Driven Turbulence in the Madison Symmetric Torus }, US Transport Task Force Workshop, San Antonio, TX - April 2014
+\item Poster, {\it Gyrokinetic Characterization of PPCD Plasmas}, APS Division of Plasma Physics Annual Meeting, Denver, CO - November 2013
+\item Poster, {\it Gyrokinetic Microinstability and Turbulence Studies in the RFP}, IEA-RFP Workshop, Padova, Italy - September 2013
+\item Invited Talk, {\it Gyrokinetic simulations in the RFP}, US Transport Task Force Workshop, Santa Rosa, CA - April 2013
+\item Poster, {\it Microtearing Mode Fluctuations in Reversed Field Pinch Plasmas}, International Atomic Energy Agency Fusion Energy Conference, San Diego, CA - October 2012
+\item Poster, {\it Microtearing Simulations in the Madison Symmetric Torus}, APS Division of Plasma Physics Annual Meeting, Providence, RI - October 2012
+\item Poster, {\it Gyrokinetic modeling of microinstabilities in the reversed field pinch}, US Transport Task Force Workshop, Annapolis, MD - April 2012
+\item Poster, {\it Gyrokinetic Studies of Microtearing Modes in the Reversed Field Pinch}, APS Division of Plasma Physics Annual Meeting, Salt Lake City, UT - November 2011, Abstract GP9.00038
+\item Talk, {\it Gyrokinetic Simulations and Microinstabilities in the RFP}, IEA-RFP Workshop, Madison, Wisconsin - October 2011
+\item Poster, {\it Evidence of a mid-mantle discontinuity beneath South America}, American Geophysical Union - Fall Meeting, San Francisco - 2006, abstract S53A-1303
+\end{itemize}
+
+\section*{Outreach}
+
+\begin{itemize}
+\item Talk, {\it Plasmas of the Universe}, Madison East High School Math Week, Madison, WI - May 2014
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+%    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+
+
+\end{document}

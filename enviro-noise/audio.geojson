@@ -1,0 +1,533 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pannikin Coffee & Tea",
+        "date": "6.9.2015",
+        "description": "Grabbing coffee along Highway 101.",
+        "url": "files/Pannikin.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2994,
+          33.05823243631843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fish Creek Trail",
+        "date": "6.14.2015",
+        "description": "On the Fish Creek trail, descending from the peak back to my car.",
+        "url": "files/FishCreekTrail.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.81814193725587,
+          34.101393174746775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Gorgonio Peak",
+        "date": "6.14.2015",
+        "description": "At San Gorgonio Peak.",
+        "url": "files/SanGorgonioAmbientNoise.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.82505130767822,
+          34.09926099332951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Big Bear Lake",
+        "date": "6.14.2015",
+        "description": "On the shores of Big Bear Lake.",
+        "url": "files/BigBearLake.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.92238330841064,
+          34.2606924649216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Intelligentsia",
+        "date": "6.15.2015",
+        "description": "Busy coffee shop in Pasadena.",
+        "url": "files/IntelligentsiaPasadena.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.14930081367493,
+          34.14585467618555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Angeles National Forest",
+        "date": "6.20.2015",
+        "description": "Creekside near the Buckthorn Campground.",
+        "url": "files/AngelesNationalForest.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.84690856933594,
+          34.36611072883117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cold Springs Campground",
+        "date": "6.21.2015",
+        "description": "",
+        "url": "files/ColdSpringsCG.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.61571550369261,
+          36.45073336220764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jennie Lakes Wilderness",
+        "date": "6.25.2015",
+        "description": "",
+        "url": "files/JennieLakesWilderness.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8053798675537,
+          36.70723782520921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zumwalt Meadows",
+        "date": "6.26.2015",
+        "description": "",
+        "url": "files/ZumwaltMeadows.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.59628558158875,
+          36.792747409033474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Convict Flats Campground",
+        "date": "6.26.2015",
+        "description": "A campground just outside of King's Canyon National Park.",
+        "url": "files/ConvictFlatsCG.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.83301734924315,
+          36.81763360435127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Washington Beach Campground",
+        "date": "6.28.2015",
+        "description": "",
+        "url": "files/FortWashingtonBeachCampground.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.78691816329956,
+          36.89336769350104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Starbucks, Friant and Fort Washington",
+        "date": "6.29.2015",
+        "description": "",
+        "url": "files/StarbucksFortWashington.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.77760553359985,
+          36.873080859077476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hartley Springs Campground",
+        "date": "6.30.2015",
+        "description": "",
+        "url": "files/HartleySpringsCampground.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.03806686401367,
+          37.77156281398484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Twenty Lakes Area",
+        "date": "7.1.2015",
+        "description": "Hiking area outside of Yosemite in the Inyo National Forest.",
+        "url": "files/TwentyLakesArea.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.28963661193846,
+          37.99727871547023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "June Lake Beach",
+        "date": "7.1.2015",
+        "description": "",
+        "url": "files/JuneLakeBeach.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.06909465789795,
+          37.795321934202306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mono Pass",
+        "date": "7.2.2015",
+        "description": "",
+        "url": "files/MonoPass.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.21118736267088,
+          37.8549997451802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tuolumne Meadows",
+        "date": "7.2.2015",
+        "description": "",
+        "url": "files/TuolumneMeadows.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3665838241577,
+          37.87509052082187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UC Berkeley Campus, Noon",
+        "date": "7.6.2015",
+        "description": "",
+        "url": "files/BerkeleyCampusNoon.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25950181484222,
+          37.87076706224319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Francisco Mission District",
+        "date": "7.7.2015",
+        "description": "",
+        "url": "files/SFMissionDistrict.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42095470428467,
+          37.76494332648602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nadelos Campground, King Range",
+        "date": "7.8.2015",
+        "description": "",
+        "url": "files/NadelosCGKingRange.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.99950981140137,
+          40.0163583555091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinkyone Wilderness",
+        "date": "7.9.2015",
+        "description": "",
+        "url": "files/SinkyoneWilderness"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.99204254150389,
+          39.97705432625989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Black Sands Beach",
+        "date": "7.10.2015",
+        "description": "",
+        "url": "files/BlackSandsBeach.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.07886028289794,
+          40.045850277192905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prairie Creek Redwoods State Park",
+        "date": "7.11.2015",
+        "description": "",
+        "url": "PrairieCreekRedwoodsStatePark.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.01822090148924,
+          41.37004563463282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flint Ridge Bluff Overlook",
+        "date": "7.11.2015",
+        "description": "",
+        "url": "files/FlintRidgeBluffOverlook.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.07916069030762,
+          41.51050551483628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fern Canyon",
+        "date": "7.12.2015",
+        "description": "",
+        "url": "files/FernCanyon.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.05800342559814,
+          41.401278058275125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smith River",
+        "date": "7.12.2015",
+        "description": "",
+        "url": "files/SmithRiver.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.01470184326172,
+          41.77956887104993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cleetwood Cove, Crater Lake",
+        "date": "7.13.2015",
+        "description": "",
+        "url": "files/CleetwoodCoveCraterLake.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0886182785034,
+          42.976191015207476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rogue River - Siskiyou National Forest",
+        "date": "7.13.2015",
+        "description": "",
+        "url": "files/RogueRiverSiskiyouNF.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25182533264159,
+          42.88954882665412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Sister Summit",
+        "date": "7.15.2015",
+        "description": "",
+        "url": "files/SouthSisterSummit.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.76947832107545,
+          44.1037043626529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crow's Feet",
+        "date": "7.15.2015",
+        "description": "",
+        "url": "files/CrowsFeet.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.31391048431395,
+          44.06012890050531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frog Lake",
+        "date": "7.16.2015",
+        "description": "",
+        "url": "files/FrogLake.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.69510602951048,
+          45.216344172085776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iron Creek Campground",
+        "date": "7.19.2015",
+        "description": "",
+        "url": "files/IronCreekCG.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98506355285645,
+          46.42768224175069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glacier Vista",
+        "date": "7.20.2015",
+        "description": "",
+        "url": "files/GlacierVista.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.73546791076659,
+          46.801557680581034
+        ]
+      }
+    }
+  ]
+}

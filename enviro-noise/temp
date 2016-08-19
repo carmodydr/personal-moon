@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pannikin Coffee & Tea",
+	"date": "6.9.2015",
+	"description": "Grabbing coffee along Highway 101.",
+	"url": "files/Pannikin.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2994,
+          33.05823243631843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fish Creek Trail",
+        "date": "6.14.2015",
+        "description": "On the Fish Creek trail, descending from the peak back to my car.",
+	"url": "files/SanGorgonioAmbientNoise.m4a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.81814193725587,
+          34.101393174746775
+        ]
+      }
+    }
+  ]
+}

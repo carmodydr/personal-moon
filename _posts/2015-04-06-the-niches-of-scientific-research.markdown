@@ -1,0 +1,29 @@
+---
+layout: post
+title: The niches of scientific research
+excerpt: How does science happen? Who participates in this process?
+tags: science society
+---
+
+Science is a growing and evolving thing, often moving forward incrementally, with millions of minute steps. Although a lot of attention is paid to the big names and 'geniuses' of certain fields, the process of scientific advancement is much more complicated than that. How does scientific advancement happen? Who participates in this process?
+
+To begin with, we must first clarify what it is meant by 'scientific advancement'. When we consider steps forward in science, we generally think about an increase in our knowledge of the natural world and the processes that take place within it. But how many people have to know and accept a thing before we consider it part of the body of scientific understanding?
+
+Consider a lone theoretical physicist working vigorously in the solitude of her office. She makes a breakthrough, and through this breakthrough comes to understand some new piece of physics. Can we consider this breakthrough to be a piece of scientific knowledge before she shares it with anyone? Before it is confirmed through experiment? Before it is taught to a college student? An elementary school student?
+
+There is obviously no clear criteria for when something can be considered scientific fact, but on some level it should be clear that in order for something to be considered part of the great chain of scientific knowledge it needs to be brought out into the open. If science is to be considered a human endeavour, and not just lone individuals solving puzzles, then at some point the understanding gained needs to find its way into general knowledge.
+
+With this viewpoint, science becomes a much broader pursuit than only that which is done by practising scientists. There is a whole scientific ecosystem involved that moves scientific knowledge from its discovery on one end of the spectrum and its consumption on the other. Over time, a wide variety of roles have evolved to fill the various niches of this ecosystem. Some of the people in these roles are considered scientists, but there are others who, though not directly involved with research, are nevertheless invaluable to the scientific process.
+
+The dichotomy between theory and experiment is one that often occurs within physics, with theorists formulating and modifying analytical frameworks to describe physical phenomena and experimentalists designing procedures and devices to test these models. More recently, computational physicists have been added to the mix, applying algorithms and processing power to the solution of the theorists' equations. The work of these 'numerical experimentalists' often serves to offer a degree of translation between the complicated sets of equations formulated by analytic theorists and the sometimes difficult to diagnose observations of experimentalists.
+
+While these three categories - theory, experiment, and computation - are considered the basic roles (at least within physics), scientific advancement would be almost impossible without a variety of others as well.
+
+One role that is often overlooked is that of manager. This is especially important in today's world of 'Big Science', in which experiments may take decades to design and build and cost billions of dollars. There is a sort of 'economics of science' at play here, with many parties competing for limited resources. Projects that are unable to adequately contend with deadlines and budget constraints, and the associated political fallout of underperforming, run the risk of cancellation. Successful examples in this vein include J. Robert Oppenheimer, who directed much of the work on the Manhattan project, and Robert Wilson, first director of Fermilab. The talents required by these directors extend beyond just knowledge of physics concepts, but without the ability to manage these large scale projects the scientific results attained would not have been possible.
+
+All of this progress would be wasted if it weren't also possible for science to propagate itself from generation to generation. This is the role of the educator and scientific communicator. Teachers find their place within the realm of science by passing on what is known about the world to the next group of potential scientists. By educating and inspiring students they can help ensure that there are those able and willing to pick up and carry the torch of scientific discovery. Every successful scientist can point to one or more people that introduced them to their field of interest or enabled them to carry on their studies.
+
+Just because someone has left the realm of the official education system does not mean that they stop learning, of course, and continuing education is often reliant on those communicators and popularizers of science - the writers, speakers, and film makers like Carl Sagan and Neil deGrasse Tyson. These people are part scientist and part showman, inspiring young scientists, distilling knowledge into the general populace, and drumming up public support for scientific projects. In a democratic society with publicly funded science, there is an obligation to bring the fruits of the labor of research to the broader population. Only once knowledge has been widely disseminated can it be considered to be part of humanity's legacy to the next generation. 
+
+There are plenty of other roles than the ones I've mentioned, of course: the engineers who design and build scientific equipment, the technologists and entrepreneurs who translate scientific results into practical ideas, and the politicians who build policy and determine funding. It is because of all this that science can and should be thought of as a human-wide pursuit, one in which we are all participating to some degree.
+

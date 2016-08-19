@@ -1,0 +1,10 @@
+[{
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [170.816975,-42.899578]},
+    "properties": {
+        "description": "<img src='http://placekitten.com/200/200'>",
+        "url": "<a href='http://en.wikipedia.org/wiki/Washington,_D.C.'>d</a>",
+        "marker-symbol": "star",
+        "title": "Washington, D.C."
+    }
+}]
